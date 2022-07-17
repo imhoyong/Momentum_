@@ -89,7 +89,7 @@ li span {
 }
 
 
-.js-weather {
+#weather {
   font-size: 20px;
   color:#ffffff;
    text-align: center;
