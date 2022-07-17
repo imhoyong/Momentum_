@@ -1,19 +1,23 @@
-/*Tag*/
+
 body {
-  background-color: #2c3e50;
+  background-color: #ffffff;
   text-align: center;
 }
 
-/*Input text*/
 input {
   width: 220px;
   height: 50px;
-  font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
+  font-size: 16px;
+    width: 30%;
+    border: none;
+    outline: none;
+    padding-bottom: 8px;
+    box-sizing: border-box; 
 }
 
-/*To do list*/
+
 ul {
   margin-bottom: 30px;
 }
@@ -21,6 +25,11 @@ ul {
 li {
   list-style: none;
   margin-bottom: 10px;
+  color:#ffffff;
+ 
+   text-align: center;
+   letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
 }
 
 li span {
@@ -28,9 +37,15 @@ li span {
   margin-right: 20px;
 }
 
-/*Class*/
+
 .time {
   font-size: 400%;
+  color:#ffffff;
+ 
+   text-align: center;
+   letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
+
 }
 
 .form,
@@ -41,6 +56,10 @@ li span {
 .showing {
   display: block;
   font-size: 25px;
+  color:#ffffff;
+  text-align: center;
+   letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
 }
 
 /*Delete Button CSS*/
@@ -69,7 +88,11 @@ li span {
   animation: fadeIn 0.5s linear;
 }
 
-/*Weather*/
+
 .js-weather {
   font-size: 20px;
+  color:#ffffff;
+   text-align: center;
+   letter-spacing: 2px;
+  text-shadow: 1px 1px 1px rgba(10, 10, 10, 0.7);
 }
