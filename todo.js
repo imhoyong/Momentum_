@@ -28,12 +28,23 @@ function paintToDo(text) {
   const li = document.createElement("li");
   const delBtn = document.createElement("button");
   const span = document.createElement("span");
+   const date = new Date();
+   const year = date.getFullYear();
+   const month = date.getMonth() + 1;
+   const day = date.getDate();
+   const dayofweek = date.getDay();
+
+const dayname = ['일','월','화','수','목','금','토'];
+
+   const minutes = date.getMinutes();
+   const hours = date.getHours();
+   const seconds = date.getSeconds();
   const newId = toDos.length + 1;
   const delBtnCL = "delBtn";
   delBtn.innerText = "❌";
   delBtn.addEventListener("click", deleteToDo);
   delBtn.classList.add(delBtnCL);
-  span.innerText = text;
+  span.innerText = `[${year}년${month}월${day}일[${dayname[dayofweek]}] ${hours}:${minutes}:${seconds}] ${text}`;
   li.appendChild(span);
   li.appendChild(delBtn);
   li.id = newId;
