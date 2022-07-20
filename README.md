@@ -1,7 +1,7 @@
 # Momentum
 ## 🚀 Clone Momentum
 
-* Go to result https://imhoyong.github.io/Momentum/
+* Go to result https://imhoyong.github.io/Momentum_/
 
 
 * Educated https://nomadcoders.co/
